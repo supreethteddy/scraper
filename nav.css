@@ -1,39 +1,39 @@
 .body
 {
-	background:url('shopping.jpg') no-repeat;
-	background-size: cover;
+	
 	font-family: Arial;
-	color:white;
+	margin:0;
+	padding:0;
 }
-.ul 
+.nav 
 {
-	margin:0px;
-	padding-top:0px;
+	background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	padding:1px;
 	list-style:none;
-}
-ul li
-{
-	float:left;
-	width: 300px;
-	height:40px;
-	background-color:yellow;
-	color:white;
-	opacity: .8;
-	line-height: 40px;
 	text-align:center;
-	font-size:20px;
-	margin-right:4px;
 }
-ul li a
+.nav > li
+{
+
+	display:inline-block;
+	padding:0 25px 0 25px;
+	
+	
+}
+.nav > li a
 {
 	text-decoration:none;
-	color:black;
+	color:#fff;
 	display:block;
 }
 a:hover
 {
-	background-color:green;
-}
+	background-color:rgba(100,100,100,50);
+	text-align:center;
+	}
 ul li ul li
 {
 	display:none;
